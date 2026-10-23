@@ -1,0 +1,12 @@
+{
+  "name": "websource/websourcerecaptcha",
+  "description": "Protection Google reCAPTCHA (v2 case à cocher, v2 invisible, v3 score) des formulaires PrestaShop : contact, compte, connexion, mot de passe oublié, newsletter, avis produits, commande invité. Vérification côté serveur, journal des échecs.",
+  "type": "prestashop-module",
+  "license": "AFL-3.0",
+  "keywords": ["prestashop", "prestashop-module", "recaptcha", "captcha", "antispam", "security"],
+  "homepage": "https://github.com/Websource-fr/websourcerecaptcha",
+  "authors": [{ "name": "Websource", "homepage": "https://www.websource.fr" }],
+  "support": { "issues": "https://github.com/Websource-fr/websourcerecaptcha/issues" },
+  "require": { "php": ">=7.2" },
+  "config": { "prepend-autoloader": false }
+}

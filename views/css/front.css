@@ -1,0 +1,45 @@
+/* Websource reCAPTCHA — styles front (volontairement neutres : s'appuient sur les classes du thème). */
+.wsrc-widget {
+  margin: .75rem 0;
+  min-height: 1px;
+}
+.wsrc-widget > div {
+  max-width: 100%;
+}
+.wsrc-badge-inline {
+  margin: .75rem 0;
+}
+.wsrc-legal {
+  margin: .5rem 0;
+  font-size: .75rem;
+  line-height: 1.4;
+  color: #6c757d;
+}
+.wsrc-legal a {
+  color: inherit;
+  text-decoration: underline;
+}
+.wsrc-error {
+  margin: .5rem 0 .75rem;
+  padding: .5rem .75rem;
+  border: 1px solid #f1aeb5;
+  border-radius: 4px;
+  background: #f8d7da;
+  color: #842029;
+  font-size: .875rem;
+}
+.wsrc-consent {
+  margin: .75rem 0;
+  padding: .5rem .75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background: #f8f9fa;
+  font-size: .8125rem;
+}
+.wsrc-consent button {
+  margin-top: .375rem;
+}
+/* Badge masqué : autorisé par Google uniquement si la mention légale (.wsrc-legal) est affichée. */
+.wsrc-nobadge .grecaptcha-badge {
+  visibility: hidden !important;
+}

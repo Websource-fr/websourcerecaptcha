@@ -1,0 +1,33 @@
+/* Websource reCAPTCHA — back-office */
+.wsrc-kpis {
+  margin-bottom: 15px;
+}
+.wsrc-kpi {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #2c2c2c;
+  background: #f8f8f8;
+}
+.wsrc-kpi--blocked {
+  border-left-color: #e30613;
+}
+.wsrc-kpi__value {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.wsrc-kpi__label {
+  display: block;
+  color: #6c6c6c;
+}
+.form-group.wsrc-sub .control-label {
+  font-weight: normal;
+  color: #6c6c6c;
+}
+.wsrc-badge-blocked {
+  background: #e30613;
+}
+.wsrc-clear-log {
+  margin-top: 10px;
+}

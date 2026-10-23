@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>websourcerecaptcha</name>
+	<displayName><![CDATA[Websource reCAPTCHA]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Protège vos formulaires (contact, compte, connexion, newsletter, avis…) contre le spam avec Google reCAPTCHA v2 ou v3, avec vérification côté serveur.]]></description>
+	<author><![CDATA[Websource]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Supprimer la configuration, le journal et les statistiques reCAPTCHA ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

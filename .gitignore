@@ -1,0 +1,29 @@
+# Artefacts de build
+/dist/
+*.zip
+
+# Dépendances (aucune dépendance Composer/npm requise par le module)
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Cache / logs
+cache/
+*.log
+*.cache
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Environnement local / secrets
+.env
+.env.*
+config_*.local.php
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
